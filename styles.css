@@ -1,5 +1,11 @@
 @font-face {}
 
+/* p5 */
+
+canvas {
+    display: block;
+  }
+
 /* COMMON STYLES 
   -------------------------------- */
 	
