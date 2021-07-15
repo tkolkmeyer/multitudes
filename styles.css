@@ -3,15 +3,11 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .key-concepts__container {
     position: fixed;
-    float: right;
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 20px;
-    font-size: 12px;
-    width: 175px;
-    margin-left: -15px;
-    box-sizing: border-box; }
+    width: 200px;
+    height: 400px;
+    background: #000;
+  
+  }
 
 /* External Reading/Resources Side Bar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -34,6 +30,23 @@
     font-weight: 400;
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #222; }
+
+    .content {
+      margin-left: 200px;
+      height: 500px;
+      width: auto;
+      position: relative;
+      background: #f00;
+      overflow: auto;
+      z-index: 1;
+  }
+
+  .info {
+    width: 1440px;
+    height: 300px;
+    position: relative;
+    background: #f55;
+}
   
   
   /* Typography
