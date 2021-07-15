@@ -3,20 +3,11 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .key-concepts__container {
     position: fixed;
-    width: 200px;
-    height: 400px;
+    float: right;
+    width: 25%;
+    padding: 15px;
+  
   }
-
-/* External Reading/Resources Side Bar
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.external-reading__container {
-  position: fixed;
-  float: right;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box; }
   
   /* Base Styles
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -30,27 +21,13 @@
     color: #222; }
 
     .content {
-      margin-right: 200px;
-      height: 500px;
-      width: auto;
       position: relative;
+      float: left;
+      width: 75%;
       overflow: auto;
       z-index: 1;
   }
 
-  .info {
-    width: 1440px;
-    height: 300px;
-    position: relative;
-}
-
-.column {
-  float: right;
-  width: 33.33%;
-  padding: 15px;
-}
-  
-  
   /* Typography
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   h1, h2, h3, h4, h5, h6 {
