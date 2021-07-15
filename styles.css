@@ -43,6 +43,12 @@
     height: 300px;
     position: relative;
 }
+
+.column {
+  float: right;
+  width: 33.33%;
+  padding: 15px;
+}
   
   
   /* Typography
