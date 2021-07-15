@@ -8,6 +8,9 @@
     max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
+    font-size: 12px;
+    width: 175px;
+    margin-left: -15px;
     box-sizing: border-box; }
 
 /* External Reading/Resources Side Bar
