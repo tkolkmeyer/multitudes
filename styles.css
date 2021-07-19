@@ -109,10 +109,6 @@ a:hover {
 /* Lists
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-ol {
-    list-style: decimal inside;
-}
-
 ol,
 ul {
     padding-left: 0;
