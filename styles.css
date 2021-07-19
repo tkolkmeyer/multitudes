@@ -160,6 +160,15 @@ li {
     padding: 3%;
 }
 
+.external-reading {
+    font-size: 1.0em;
+    line-height: 1;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #222;
+    padding: 3%;
+}
+
 
 /* Media Queries
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
