@@ -101,8 +101,12 @@ a {
     color: #1EAEDB;
 }
 
+a::marker {
+    display: none;
+}
+
 a:hover {
-    color: #0FA0CE;
+    color: #0b126e;
 }
 
 
