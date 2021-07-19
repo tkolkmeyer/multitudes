@@ -139,11 +139,9 @@ li {
 /* Key Concepts Side Bar
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.key-concepts__container {
-    display: block;
-    box-sizing: border-box;
+.sidebar-container {
     position: fixed;
-    float: left;
+    float: right;
     width: 25%;
     padding: 15px;
     max-height: 50%;
