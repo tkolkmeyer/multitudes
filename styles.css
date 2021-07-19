@@ -146,10 +146,6 @@ li {
     overflow: scroll;
 }
 
-
-/* Key Concepts
-    –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 .sidebar-content {
     font-size: 1.0em;
     /* currently ems cause chrome bug misinterpreting rems on body element */
