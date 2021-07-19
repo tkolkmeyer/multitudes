@@ -109,6 +109,10 @@ a:hover {
 /* Lists
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+ul li::marker {
+    display: none;
+}
+
 ol,
 ul {
     padding-left: 0;
