@@ -139,7 +139,7 @@ li {
 /* Side Bar
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.sidebar-container {
+.sidenav-container {
     position: fixed;
     top: 5%;
     bottom: 0%;
@@ -150,7 +150,7 @@ li {
     overflow: scroll;
 }
 
-.sidebar-content {
+.sidenav-content {
     font-size: 1.0em;
     /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1;
