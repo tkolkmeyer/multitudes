@@ -15,6 +15,58 @@ body {
 }
 
 
+/* Side Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.sidenav-container {
+    position: fixed;
+    top: 5%;
+    bottom: 0%;
+    right: 1%;
+    min-width: 25%;
+    max-height: 100%;
+    overflow-y: auto;
+    overflow: scroll;
+}
+
+.sidenav-content {
+    position: relative;
+    font-size: 1.0em;
+    /* currently ems cause chrome bug misinterpreting rems on body element */
+    line-height: 1;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #222;
+    padding: 3%;
+    border: 3px solid navy;
+    margin: 5%;
+}
+
+
+/* Lesson Content
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.section {
+    width: 75%;
+}
+
+.slide {
+    width: auto;
+}
+
+.notes {
+    width: auto;
+}
+
+.figure {
+    width: auto;
+}
+
+.footer {
+    width: 100%;
+}
+
+
 /* Typography
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -133,34 +185,6 @@ ol ul {
 
 li {
     margin-bottom: 1rem;
-}
-
-
-/* Side Bar
-    –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.sidenav-container {
-    position: fixed;
-    top: 5%;
-    bottom: 0%;
-    right: 1%;
-    min-width: 25%;
-    max-height: 100%;
-    overflow-y: auto;
-    overflow: scroll;
-}
-
-.sidenav-content {
-    position: relative;
-    font-size: 1.0em;
-    /* currently ems cause chrome bug misinterpreting rems on body element */
-    line-height: 1;
-    font-weight: 400;
-    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #222;
-    padding: 3%;
-    border: 3px solid navy;
-    margin: 5%;
 }
 
 
