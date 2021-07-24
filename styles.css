@@ -80,12 +80,8 @@ body {
     margin-inline-start: 40px;
     margin-inline-end: 40px;
     padding: 1%;
-}
-
-p.notes::before {
-    content: "{";
-    font-size: 4.0rem;
-    color: navy;
+    border-color: navy;
+    border-style: hidden hidden hidden dotted;
 }
 
 .figure {
