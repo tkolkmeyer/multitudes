@@ -41,6 +41,10 @@ body {
     color: #222;
 }
 
+.sidenav-content:p {
+    color: red;
+}
+
 .sidenav-content:h1 {
     font-size: 1.5rem;
     line-height: 1.35;
@@ -84,23 +88,11 @@ body {
     border-style: inset;
 }
 
-.notes:h1 {
-    font-size: 1.5rem;
-    line-height: 1.6;
-    letter-spacing: 0;
-}
-
 .figure {
     width: auto;
     border: 3px solid navy;
     border-radius: 25px;
     padding: 1%;
-}
-
-.figure:title {
-    font-size: 1.5rem;
-    line-height: 1.6;
-    letter-spacing: 0;
 }
 
 .footer {
