@@ -83,6 +83,12 @@ body {
     border-style: inset;
 }
 
+.notes::before {
+    content: "{";
+    font-size: 4.0rem;
+    color: #222;
+}
+
 .figure {
     width: auto;
     border: 3px dashed navy;
