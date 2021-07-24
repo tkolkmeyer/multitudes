@@ -82,10 +82,10 @@ body {
     padding: 1%;
 }
 
-p::before #notes {
+p.notes::before {
     content: "{";
     font-size: 4.0rem;
-    color: #222;
+    color: navy;
 }
 
 .figure {
