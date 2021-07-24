@@ -94,6 +94,9 @@ body {
 
 .footer {
     width: 100%;
+    border: 3px solid navy;
+    background-color: olivedrab;
+    opacity: .4;
 }
 
 
