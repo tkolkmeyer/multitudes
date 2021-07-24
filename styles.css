@@ -12,7 +12,6 @@ body {
     font-weight: 400;
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #222;
-    padding: 0% 0% 0% 3%
 }
 
 
@@ -60,6 +59,7 @@ body {
     border: 3px solid navy;
     border-radius: 25px;
     padding: 1%;
+    margin: 1% 0% 1% 0%;
 }
 
 .video {
