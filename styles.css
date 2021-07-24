@@ -94,9 +94,11 @@ body {
 
 .footer {
     width: 100%;
+    color: #222;
     border: 3px solid navy;
-    background-color: olivedrab;
-    opacity: .4;
+    border-radius: 25px;
+    padding: 1%;
+    background-color: #E1F1FF;
 }
 
 
