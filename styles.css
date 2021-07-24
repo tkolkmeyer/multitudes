@@ -21,6 +21,7 @@ body {
 .sidenav-container {
     position: fixed;
     margin: 0% 15% 0% 0%;
+    right: 1%;
     min-width: 22%;
     max-height: 100%;
     overflow-y: auto;
