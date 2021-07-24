@@ -83,7 +83,7 @@ body {
     border-style: inset;
 }
 
-.notes p {
+.notes::before p {
     content: "{";
     font-size: 4.0rem;
     color: #222;
