@@ -20,7 +20,7 @@ body {
 
 .sidenav-container {
     position: fixed;
-    margin: 0% 15% 0% 0%;
+    margin: 0% 7% 0% 0%;
     right: 1%;
     min-width: 22%;
     max-height: 100%;
@@ -52,7 +52,7 @@ body {
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .section {
-    width: 70%;
+    width: 60%;
     margin: 2% 0% 5% 5%;
     padding: 1%;
     border: 3px solid navy;
