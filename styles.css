@@ -153,28 +153,13 @@ a {
     color: #1EAEDB;
 }
 
-a::marker {
-    display: none;
-}
-
 a:hover {
     color: #0b126e;
-    content: '{';
-    color: #bbb;
-    position: absolute;
-    font-size: 16px;
-    top: 1px;
-    left: 0;
-    display: none;
 }
 
 
 /* Lists
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-ul li::marker {
-    display: none;
-}
 
 ol,
 ul {
@@ -192,6 +177,7 @@ ol ul {
 
 li {
     margin-bottom: 1rem;
+    list-style-type: none;
 }
 
 
