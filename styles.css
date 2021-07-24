@@ -20,17 +20,12 @@ body {
 
 .sidenav-container {
     position: fixed;
-    top: 5%;
-    bottom: 0%;
-    right: 1%;
     min-width: 25%;
     max-height: 100%;
     overflow-y: auto;
     overflow: scroll;
     border: 3px solid navy;
     border-radius: 25px;
-    padding: 3%;
-    margin: 5%;
 }
 
 .sidenav-content {
@@ -41,6 +36,11 @@ body {
     font-weight: 400;
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #222;
+}
+
+.sidenav-content:li {
+    padding: 0px;
+    margin: 0px;
 }
 
 
