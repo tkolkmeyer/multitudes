@@ -12,6 +12,7 @@ body {
     font-weight: 400;
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #222;
+    padding: 0% 0% 0% 3%
 }
 
 
@@ -21,7 +22,7 @@ body {
 .sidenav-container {
     position: fixed;
     right: 1%;
-    min-width: 25%;
+    min-width: 22%;
     max-height: 100%;
     overflow-y: auto;
     overflow: scroll;
@@ -31,12 +32,19 @@ body {
 
 .sidenav-content {
     position: relative;
+    padding: 5%;
     font-size: 1.0em;
     /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1;
     font-weight: 400;
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #222;
+}
+
+.sidenav-content:h1 {
+    font-size: 2.4rem;
+    line-height: 1.35;
+    letter-spacing: -.08rem;
 }
 
 .sidenav-content:li {
@@ -56,8 +64,23 @@ body {
     width: auto;
 }
 
+.video {
+    border: 3px solid navy;
+    border-radius: 25px;
+}
+
 .notes {
-    width: auto;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.notes:title {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    letter-spacing: 0;
 }
 
 .figure {
