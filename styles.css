@@ -80,7 +80,6 @@ body {
     margin-inline-start: 40px;
     margin-inline-end: 40px;
     padding: 1%;
-    border-style: inset;
 }
 
 .notes::before p {
