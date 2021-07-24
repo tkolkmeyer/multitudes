@@ -74,7 +74,6 @@ body {
     margin-block-end: 1em;
     margin-inline-start: 40px;
     margin-inline-end: 40px;
-    border: 5px solid black;
     padding: 1%;
     border-style: inset;
 }
@@ -93,10 +92,11 @@ body {
 }
 
 .footer {
-    width: 100%;
+    width: 75%;
     color: #222;
     border: 3px solid navy;
     border-radius: 25px;
+    margin: 1%;
     padding: 1%;
     background-color: #E1F1FF;
 }
