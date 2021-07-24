@@ -42,7 +42,7 @@ body {
 }
 
 .sidenav-content h1 {
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     line-height: 1.5;
     letter-spacing: -.05rem;
 }
@@ -63,8 +63,8 @@ body {
 }
 
 .video {
-    border: 3px solid navy;
-    border-radius: 25px;
+    border: 3px dotted navy;
+    border-radius: 33px;
     padding: 1%;
 }
 
@@ -74,16 +74,22 @@ body {
     margin-block-end: 1em;
     margin-inline-start: 40px;
     margin-inline-end: 40px;
-    border: 1px solid black;
+    border: 5px solid black;
     padding: 1%;
     border-style: inset;
 }
 
 .figure {
     width: auto;
-    border: 3px solid navy;
+    border: 3px dashed navy;
     border-radius: 25px;
     padding: 1%;
+}
+
+.figure h1 {
+    font-size: 2.4rem;
+    line-height: 1.35;
+    letter-spacing: -.08rem;
 }
 
 .footer {
