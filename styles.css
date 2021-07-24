@@ -82,7 +82,7 @@ body {
     padding: 1%;
 }
 
-.notes::before {
+.p.notes::before {
     content: "{";
     font-size: 4.0rem;
     color: navy;
