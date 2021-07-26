@@ -34,17 +34,19 @@ body {
     padding: 1% 1% 1% 2%;
 }
 
+.horizontal-navigation li:hover {
+    border: 3px solid navy;
+    border-radius: 10px;
+    float: left;
+    padding: 0% 1% 0% 1%;
+    margin: 1% 1% 1% 1%;
+}
+
 .horizontal-navigation li a {
     display: table-row;
     color: #222;
     text-align: center;
     text-decoration: none;
-}
-
-.horizontal-navigation li a:hover {
-    padding: 1%;
-    border: 3px solid navy;
-    border-radius: 25px;
 }
 
 
@@ -234,7 +236,11 @@ a {
 }
 
 a:hover {
-    color: yellow;
+    border: 1px solid navy;
+    border-radius: 10px;
+    float: left;
+    padding: 0% 1% 0% 1%;
+    margin: 1% 1% 1% 1%;
 }
 
 
