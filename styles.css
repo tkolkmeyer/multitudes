@@ -13,6 +13,7 @@ body {
     line-height: 1.6;
     font-weight: 400;
     color: #222;
+    padding: 1%;
 }
 
 
@@ -41,7 +42,9 @@ body {
 }
 
 .horizontal-navigation li a:hover {
-    color: yellow;
+    color: white;
+    background-color: navy;
+    border-radius: 25px;
 }
 
 
