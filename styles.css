@@ -81,6 +81,14 @@ body {
     letter-spacing: -.05rem;
 }
 
+.sidenav-content a:hover {
+    border: 1px solid navy;
+    border-radius: 10px;
+    float: left;
+    padding: 0% 1% 0% 1%;
+    margin: 1% 1% 1% 1%;
+}
+
 
 /* Lesson Content
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -233,14 +241,6 @@ p {
 a {
     color: #222;
     text-decoration: none;
-}
-
-a:hover {
-    border: 1px solid navy;
-    border-radius: 10px;
-    float: left;
-    padding: 0% 1% 0% 1%;
-    margin: 1% 1% 1% 1%;
 }
 
 
