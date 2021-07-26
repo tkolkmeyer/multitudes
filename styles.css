@@ -21,7 +21,7 @@ body {
 
 .horizontal-navigation ul {
     list-style-type: none;
-    margin: 0;
+    margin: 1% 1% 1% 2%;
     padding: 0;
     overflow: hidden;
     background-color: #E1F1FF;
@@ -41,7 +41,7 @@ body {
 }
 
 .horizontal-navigation li a:hover {
-    color: navy;
+    color: yellow;
 }
 
 
@@ -226,12 +226,12 @@ p {
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 a {
-    color: #1EAEDB;
+    color: #222;
     text-decoration: none;
 }
 
 a:hover {
-    color: #0b126e;
+    color: yellow;
 }
 
 
