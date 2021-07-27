@@ -35,7 +35,7 @@ li.horizontal-navigation {
     margin: 1% 1% 1% 1%;
 }
 
-li:hover.horizontal-navigation {
+.horizontal-navigation li:hover {
     border: 3px solid navy;
     border-radius: 10px;
     margin: 0;
