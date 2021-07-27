@@ -74,7 +74,7 @@ body {
     color: #222;
 }
 
-.sidenav-content h1 {
+nav.sidenav-content h1 {
     font-size: 2.4rem;
     line-height: 1.5;
     letter-spacing: -.05rem;
