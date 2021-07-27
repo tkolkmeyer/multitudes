@@ -20,7 +20,7 @@ body {
 /* Horizontal Navigation
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-ul.horizontal-navigation {
+.horizontal-navigation ul {
     list-style-type: none;
     margin: 1% 1% 1% 2%;
     padding: 0;
@@ -29,7 +29,7 @@ ul.horizontal-navigation {
     border-radius: 25px;
 }
 
-li.horizontal-navigation {
+.horizontal-navigation li {
     float: left;
     padding: 1% 1% 1% 2%;
     margin: 1% 1% 1% 1%;
@@ -41,7 +41,7 @@ li.horizontal-navigation {
     margin: 0;
 }
 
-a.horizontal-navigation {
+.horizontal-navigation a {
     display: table-row;
     color: #222;
     text-align: center;
@@ -74,18 +74,18 @@ a.horizontal-navigation {
     color: #222;
 }
 
-h1.sidenav-content {
+.sidenav-content h1 {
     font-size: 2.4rem;
     line-height: 1.5;
     letter-spacing: -.05rem;
 }
 
-a.sidenav-content {
+.sidenav-content a {
     float: left;
     padding: 0% 1% 0% 1%;
 }
 
-a:hover.sidenav-content {
+.sidenav-content a:hover {
     border: 1px solid navy;
     border-radius: 10px;
     margin: 0;
@@ -135,7 +135,7 @@ a:hover.sidenav-content {
     padding: 1%;
 }
 
-h1.figure {
+.figure h1 {
     font-size: 2.4rem;
     line-height: 1.5;
     letter-spacing: -.05rem;
@@ -151,7 +151,7 @@ h1.figure {
     background-color: #E1F1FF;
 }
 
-h1.footer {
+.footer h1 {
     font-size: 2.4rem;
     line-height: 1.5;
     letter-spacing: -.05rem;
