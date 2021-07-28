@@ -33,12 +33,11 @@ body {
     float: left;
     padding: .5%;
     margin: 1%;
-    border: 3px solid #E1F1FF;
-    border-radius: 9px;
+    border-left: 3px solid #E1F1FF;
 }
 
 .horizontal-navigation li:hover {
-    border-color: navy;
+    border-left-color: navy;
 }
 
 .horizontal-navigation a {
@@ -46,9 +45,6 @@ body {
     color: #222;
     text-align: center;
     text-decoration: none;
-    font-size: 2.4rem;
-    line-height: 1.5;
-    letter-spacing: -.05rem;
 }
 
 
@@ -87,12 +83,11 @@ body {
 .sidenav-content a {
     float: left;
     padding: 1%;
-    border: 2px solid transparent;
-    border-radius: 5px;
+    border-left: 2px solid transparent;
 }
 
 .sidenav-content a:hover {
-    border-color: navy;
+    border-left-color: navy;
     margin: 0;
 }
 
