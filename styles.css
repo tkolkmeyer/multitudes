@@ -28,6 +28,10 @@ body {
     display: flex;
 }
 
+.header h1 {
+    padding-right: 1%;
+}
+
 
 /* Horizontal Navigation
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
