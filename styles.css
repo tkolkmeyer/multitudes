@@ -24,6 +24,10 @@ body {
     border-radius: 25px;
 }
 
+.header {
+    display: table-row;
+}
+
 
 /* Horizontal Navigation
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
