@@ -16,6 +16,11 @@ body {
     margin: 1% 1% 1% 2%;
 }
 
+.button {
+    background-color: #E1F1FF;
+    border-radius: 25px;
+}
+
 
 /* Horizontal Navigation
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
