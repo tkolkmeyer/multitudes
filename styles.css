@@ -23,7 +23,6 @@ body {
 .horizontal-navigation ul {
     list-style-type: none;
     margin: 1% 1% 1% 2%;
-    right: 1%;
     padding: 0;
     overflow: hidden;
     background-color: #E1F1FF;
@@ -57,6 +56,7 @@ body {
     position: fixed;
     padding: 1%;
     margin: 0% 5% 0% 1%;
+    right: 1%;
     min-width: 22%;
     max-height: 100%;
     overflow-y: auto;
