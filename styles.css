@@ -34,7 +34,7 @@ body {
     padding: .5%;
     margin: 1% 1% 0% 1%;
     border: 3px solid #E1F1FF;
-    border-radius: 5px;
+    border-radius: 9px;
 }
 
 .horizontal-navigation li:hover {
@@ -84,7 +84,7 @@ body {
 .sidenav-content a {
     float: left;
     padding: 1%;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     border-radius: 5px;
 }
 
