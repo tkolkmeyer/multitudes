@@ -23,6 +23,7 @@ body {
 .horizontal-navigation ul {
     list-style-type: none;
     margin: 1% 1% 1% 2%;
+    right: 1%;
     padding: 0;
     overflow: hidden;
     background-color: #E1F1FF;
