@@ -40,7 +40,7 @@ body {
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .spin {
-    animation: 3s spin 1s infinite;
+    animation: 2s spin 1s 3;
 }
 
 @keyframes spin {
