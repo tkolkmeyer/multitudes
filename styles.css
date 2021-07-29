@@ -45,10 +45,10 @@ body {
 
 @keyframes spin {
     from {
-        transform: translate(500px, 100px) rotate(0deg);
+        transform: rotate(0deg);
     }
     to {
-        transform: translate(500px, 100px) rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 
