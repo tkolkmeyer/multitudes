@@ -36,6 +36,22 @@ body {
 }
 
 
+/* Animation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.spin {
+    animation: 3s spin 1s infinite;
+    @keyframes spin {
+        from {
+            transform: translate(500px, 100px) rotate(0deg);
+        }
+        to {
+            transform: translate(500px, 100px) rotate(360deg);
+        }
+    }
+}
+
+
 /* Horizontal Navigation
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
