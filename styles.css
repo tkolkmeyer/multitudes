@@ -39,11 +39,6 @@ body {
 /* Horizontal Navigation
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.horizontal-navigation {
-    max-width: 100%;
-    box-shadow: 2px 2px 5px gray;
-}
-
 .horizontal-navigation ul {
     list-style-type: none;
     margin: 1% 1% 1% 0%;
@@ -51,6 +46,7 @@ body {
     overflow: hidden;
     background-color: #E1F1FF;
     border-radius: 25px;
+    box-shadow: 2px 2px 5px gray;
 }
 
 .horizontal-navigation li {
