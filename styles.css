@@ -17,8 +17,10 @@ body {
 }
 
 .cta {
+    display: flex;
+    justify-content: center;
+    max-width: 25%;
     margin: 1% 1% 1% 0%;
-    padding-left: 1%;
     overflow: hidden;
     background-color: #E1F1FF;
     border-radius: 25px;
