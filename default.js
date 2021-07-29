@@ -5,3 +5,6 @@ function spinLogo(getStarted, event) {
         img.classList.remove("spin");
     }
 }
+
+const cta = document.getElementsByClassName("cta");
+cta.addEventListener('mouseover', spinLogo());
