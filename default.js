@@ -1,9 +1,9 @@
 const logo = document.getElementsById("logo");
 
-function spinLogo(x) {
+function spinLogo(logo) {
     logo.classList.add("spin");
 }
 
-function noSpin(x) {
+function noSpin(logo) {
     logo.classList.remove("spin");
 }
