@@ -4,6 +4,7 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -11,8 +12,76 @@ body {
     /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
     font-weight: 400;
-    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #222;
+    margin: 1% 1% 1% 2%;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    max-width: 25%;
+    margin: 2% 1% 1% 0%;
+    overflow: hidden;
+    background-color: #E1F1FF;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.header {
+    display: flex;
+}
+
+.header h1 {
+    padding-right: 1%;
+}
+
+
+/* Animation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.spin {
+    animation: 3s spin 1s 1;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Horizontal Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.horizontal-navigation ul {
+    list-style-type: none;
+    margin: 1% 1% 1% 0%;
+    padding-left: 1%;
+    overflow: hidden;
+    background-color: #E1F1FF;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.horizontal-navigation li {
+    float: left;
+    padding: .5%;
+    margin: 1%;
+    border-left: 3px solid #E1F1FF;
+}
+
+.horizontal-navigation li:hover {
+    border-left-color: black;
+}
+
+.horizontal-navigation a {
+    display: table-row;
+    color: #222;
+    text-align: center;
+    text-decoration: none;
 }
 
 
@@ -21,31 +90,43 @@ body {
 
 .sidenav-container {
     position: fixed;
-    margin: 0% 7% 0% 0%;
+    padding: 1%;
+    margin: 0% 5% 0% 1%;
     right: 1%;
     min-width: 22%;
     max-height: 100%;
     overflow-y: auto;
     overflow: scroll;
-    border: 3px solid navy;
+    border: 3px solid black;
     border-radius: 25px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.sidenav-container h1 {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    letter-spacing: -.05rem;
 }
 
 .sidenav-content {
     position: relative;
-    padding: 5%;
+    display: grid;
     font-size: 1.0em;
     /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1;
     font-weight: 400;
-    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #222;
 }
 
-.sidenav-content h1 {
-    font-size: 2.4rem;
-    line-height: 1.5;
-    letter-spacing: -.05rem;
+.sidenav-content a {
+    float: left;
+    padding: 1%;
+    border-left: 2px solid transparent;
+}
+
+.sidenav-content a:hover {
+    border-left-color: black;
+    margin: 0;
 }
 
 
@@ -56,8 +137,9 @@ body {
     width: 60%;
     margin: 0% 0% 4% 5%;
     padding: 1%;
-    border: 3px solid navy;
+    border: 3px solid black;
     border-radius: 25px;
+    box-shadow: 2px 2px 5px gray;
 }
 
 .slide {
@@ -66,10 +148,11 @@ body {
     border-radius: 25px;
     padding: 1%;
     margin: 1%;
+    box-shadow: 2px 2px 5px gray;
 }
 
 .video {
-    border: 3px dotted navy;
+    border: 3px dotted black;
     border-radius: 33px;
     padding: 1%;
 }
@@ -81,13 +164,13 @@ body {
     margin-inline-start: 40px;
     margin-inline-end: 40px;
     padding: 1%;
-    border-color: navy;
+    border-color: black;
     border-style: hidden hidden hidden dotted;
 }
 
 .figure {
     width: auto;
-    border: 3px dashed navy;
+    border: 3px dashed black;
     border-radius: 25px;
     padding: 1%;
 }
@@ -101,11 +184,12 @@ body {
 .footer {
     width: 75%;
     color: #222;
-    border: 3px solid navy;
+    border: 3px solid black;
     border-radius: 25px;
     margin: 1%;
     padding: 1%;
     background-color: #E1F1FF;
+    box-shadow: 2px 2px 5px gray;
 }
 
 .footer h1 {
@@ -198,12 +282,8 @@ p {
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 a {
-    color: #1EAEDB;
+    color: #222;
     text-decoration: none;
-}
-
-a:hover {
-    color: #0b126e;
 }
 
 
