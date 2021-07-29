@@ -1,10 +1,9 @@
-function spinLogo(getStarted, event) {
-    if (getStarted.contains(event.target)) {
-        img.classList.add("spin");
-    } else if (!getStarted.contains(event.target)) {
-        img.classList.remove("spin");
-    }
+const logo = document.getElementsById("logo");
+
+function spinLogo(x) {
+    logo.classList.add("spin");
 }
 
-const cta = document.getElementsByClassName("cta");
-cta.addEventListener('mouseover', spinLogo());
+function noSpin(x) {
+    logo.classList.remove("spin");
+}
