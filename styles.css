@@ -20,10 +20,11 @@ body {
     display: flex;
     justify-content: center;
     max-width: 25%;
-    margin: 1% 1% 1% 0%;
+    margin: 2% 1% 1% 0%;
     overflow: hidden;
     background-color: #E1F1FF;
     border-radius: 25px;
+    box-shadow: 2px 2px 5px gray;
 }
 
 .header {
@@ -37,6 +38,11 @@ body {
 
 /* Horizontal Navigation
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.horizontal-navigation {
+    max-width: 100%;
+    box-shadow: 2px 2px 5px gray;
+}
 
 .horizontal-navigation ul {
     list-style-type: none;
@@ -55,7 +61,7 @@ body {
 }
 
 .horizontal-navigation li:hover {
-    border-left-color: navy;
+    border-left-color: black;
 }
 
 .horizontal-navigation a {
@@ -78,8 +84,9 @@ body {
     max-height: 100%;
     overflow-y: auto;
     overflow: scroll;
-    border: 3px solid navy;
+    border: 3px solid black;
     border-radius: 25px;
+    box-shadow: 2px 2px 5px gray;
 }
 
 .sidenav-container h1 {
@@ -105,7 +112,7 @@ body {
 }
 
 .sidenav-content a:hover {
-    border-left-color: navy;
+    border-left-color: black;
     margin: 0;
 }
 
@@ -117,8 +124,9 @@ body {
     width: 60%;
     margin: 0% 0% 4% 5%;
     padding: 1%;
-    border: 3px solid navy;
+    border: 3px solid black;
     border-radius: 25px;
+    box-shadow: 2px 2px 5px gray;
 }
 
 .slide {
@@ -127,10 +135,11 @@ body {
     border-radius: 25px;
     padding: 1%;
     margin: 1%;
+    box-shadow: 2px 2px 5px gray;
 }
 
 .video {
-    border: 3px dotted navy;
+    border: 3px dotted black;
     border-radius: 33px;
     padding: 1%;
 }
@@ -142,13 +151,13 @@ body {
     margin-inline-start: 40px;
     margin-inline-end: 40px;
     padding: 1%;
-    border-color: navy;
+    border-color: black;
     border-style: hidden hidden hidden dotted;
 }
 
 .figure {
     width: auto;
-    border: 3px dashed navy;
+    border: 3px dashed black;
     border-radius: 25px;
     padding: 1%;
 }
@@ -162,11 +171,12 @@ body {
 .footer {
     width: 75%;
     color: #222;
-    border: 3px solid navy;
+    border: 3px solid black;
     border-radius: 25px;
     margin: 1%;
     padding: 1%;
     background-color: #E1F1FF;
+    box-shadow: 2px 2px 5px gray;
 }
 
 .footer h1 {
